@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/hubuser121/Automation_devops.git'
+                git branch: 'main', url: 'https://github.com/vedha2003/Automation_Devops.git'
             }
         }
 
